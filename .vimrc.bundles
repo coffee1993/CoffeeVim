@@ -1,0 +1,42 @@
+filetype off 
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+
+"let Vundle manage Vundle
+" required
+
+"My Bundles here :
+"
+"original repos on github
+
+"Bundle 'Valloric/YouCompleteMe'
+Bundle 'Raimondi/delimitMate'
+Bundle 'Chiel92/vim-autoformat'
+Bundle 'gmarik/vundle'
+let g:formatdef_harttle = '"astyle --style=attach --pad-oper"'
+let g:formatters_cpp = ['harttle']
+let g:formatters_java = ['harttle']
+
+
+
+"non github repos
+
+"git repos on your local machine (ie. when working on your own plugin)
+
+
+
+"...
+
+"filetype plugin indent on " required 
+"
+"Brief help
+":BundleList - list configured bundles 
+":BundleInstall(!) -Install (update) bundles
+":BundleSerch(!) foo - search(or refresh case first) for foo 
+":BundleClean(!) - confirm(or auto-approve) removal of unused bundles
+"
+"see :h vundle for more details or wiki for FAQ
+"
+
