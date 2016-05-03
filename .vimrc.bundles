@@ -7,14 +7,24 @@ call vundle#rc()
 "let Vundle manage Vundle
 " required
 
+Bundle 'gmarik/vundle'
 "My Bundles here :
 "
 "original repos on github
 
 "Bundle 'Valloric/YouCompleteMe'
-Bundle 'Raimondi/delimitMate'
-Bundle 'Chiel92/vim-autoformat'
-Bundle 'gmarik/vundle'
+
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'Raimondi/delimitMate' 
+Bundle 'Chiel92/vim-autoformat' 
+Bundle 'scrooloose/nerdtree'
+Bundle 'Lokaltog/vim-powerline' 
+Bundle 'vim-airline/vim-airline' 
+"Bundle 'kgrz/vim-colors-github' 
+Bundle 'danro/rename.vim' 
+Bundle 'alteraction/vim-colors-solarized'
+
+
 let g:formatdef_harttle = '"astyle --style=attach --pad-oper"'
 let g:formatters_cpp = ['harttle']
 let g:formatters_java = ['harttle']
